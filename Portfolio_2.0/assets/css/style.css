@@ -1,0 +1,131 @@
+body {
+    background-color: oldlace;
+    margin: 0;
+}
+
+.header {
+    background-color: white;
+    border-bottom: 3px darkgrey solid;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.header-content {
+    width: 960px;
+    margin: auto;
+   
+}
+
+.logo {
+    display: inline-block;
+    width: 49%;
+}
+
+.logo-block{
+    background-color: teal;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.nav-bar {
+    display: inline-block;
+    text-align: right;
+    width: 49%;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: grey;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content {
+    background-color: white;
+    width: 960px;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.content-heading{
+    display: block;
+    color:teal;
+    padding: 15px;
+    border-bottom: 3px darkgrey solid;
+}
+
+.form-label{
+    display: block;
+}
+
+.form-input{
+    display: block;
+    width: 55%;
+}
+
+.form-submit {
+    background-color: teal;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+}
+
+.pfolio-link{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.pfolio-link .pfolio-link-image{
+    width: 225px;
+    height: 200px;
+    display: block;
+}
+
+.pfolio-link .pfolio-link-text{
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+    background-color: rgba(43, 100, 100, 0.651);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bio {
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.bio .bio-image {
+    width: 150px;
+    float: left;
+    margin: 9px;
+}
+
+
+.footer{
+    background-color:#303030 ;
+    color: white;
+    text-align: center;
+    border-top: 5px teal solid;
+    padding-top: 25px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
